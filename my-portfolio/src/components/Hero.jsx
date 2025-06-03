@@ -5,10 +5,11 @@ const Hero = () => {
     <section className="hero-section" style={styles.hero}>
       <div style={styles.content}>
         <img
-          src="/profile.jpg" // Replace this with your actual photo path
-          alt="Profile"
-          style={styles.photo}
-        />
+  src={`${import.meta.env.BASE_URL}profile.jpg`}
+  alt="Profile"
+  style={styles.photo}
+/>
+
         <h1 style={styles.title}>Stephen Jason Alando</h1>
         <p style={styles.tagline}>Aspiring Data Engineer | Cloud Enthusiast | Problem Solver</p>
         <div style={styles.buttons}>
