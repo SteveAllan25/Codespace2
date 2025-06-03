@@ -13,7 +13,7 @@ const Hero = () => {
         <p style={styles.tagline}>Aspiring Data Engineer | Cloud Enthusiast | Problem Solver</p>
         <div style={styles.buttons}>
           <a href="#projects" style={styles.button}>View My Work</a>
-          <a href="/resume.pdf" download style={{ ...styles.button, backgroundColor: '#444' }}>Download Resume</a>
+          <a href="/resume.docx" download style={{ ...styles.button, backgroundColor: '#444' }}>Download Resume</a>
         </div>
       </div>
     </section>
